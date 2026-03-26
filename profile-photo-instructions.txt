@@ -1,0 +1,16 @@
+INSTRUCTION UNTUK MENAMBAHKAN FOTO PROFIL MANUAL:
+
+1. Simpan foto profil Anda sebagai file 'profile.jpg' (atau .png) di folder project ini: c:/Users/asus/OneDrive/ドキュメント/angel-html/
+
+2. Buka index.html dan cari baris ini:
+   <img src="https://via.placeholder.com/300x300?text=Angelican+Photo" alt="Foto profil Angelita Tandaju" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover;">
+
+3. Ganti src="https://via.placeholder.com/..." menjadi src="profile.jpg"
+
+4. Save file dan refresh browser.
+
+Style sudah siap: circle (border-radius 50%), ukuran 250px, object-fit cover (crop pas). Siap pakai!
+
+Contoh lengkap baris setelah edit:
+<img src="profile.jpg" alt="Foto profil Angelita Tandaju" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover;">
+
